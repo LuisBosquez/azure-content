@@ -63,10 +63,10 @@ Could this instead be a #tempPerson table, so that the Java code sample could be
 > [AZURE.NOTE] If you are using the JTDS JDBC driver, then you will need to add "ssl=require" to the URL of the connection string and you need to set the following option for the JVM "-Djsse.enableCBCProtection=false". This JVM option disables a fix for a security vulnerability, so make sure you understand what risk is involved before setting this option.
 
 
-## Step 2:  Compile Java code sample
+## Step 2:  Create Java code sample
 
 
-The section contains the bulk of the Java code sample. It has comments indicating where you would copy-and-paste the smaller Java segments that are presented in subsequent sections. The sample in this section could compile and run even without the copy-and-pastes near the comments, but it would only connect and then end. The comments you will find are the following:
+The section contains the overview of the Java code sample. The comments indicate the places where you would copy-and-paste the Java segments that are presented in subsequent sections. The sample in this section could compile and run even without the copy-and-pastes near the comments, but it would only connect and then end. The comments you will find are the following:
 
 
 1. `// INSERT two rows into the table.`
